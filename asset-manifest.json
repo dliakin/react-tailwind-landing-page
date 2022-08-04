@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/feautures-component/static/css/main.1c00463d.css",
+    "main.js": "/feautures-component/static/js/main.d9d45cc2.js",
+    "index.html": "/feautures-component/index.html",
+    "main.1c00463d.css.map": "/feautures-component/static/css/main.1c00463d.css.map",
+    "main.d9d45cc2.js.map": "/feautures-component/static/js/main.d9d45cc2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c00463d.css",
+    "static/js/main.d9d45cc2.js"
+  ]
+}
