@@ -1,11 +1,7 @@
 import React from "react";
+import { IFeatureItem } from "../../models/models";
 
-interface IFeatureCardProps {
-  icon: string;
-  text: string;
-}
-
-function FeatureCard(props: IFeatureCardProps) {
+function FeatureCard(props: IFeatureItem) {
   return (
     <div className="flex flex-col items-center">
       <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center text-white mb-2 sm:mb-4">
