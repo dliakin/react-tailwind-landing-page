@@ -1,8 +1,8 @@
 import React from "react";
 import FeatureTab from "./FeatureTab";
-import { IFeature } from "../../models/models";
+import { IFeatureTab } from "../../models/models";
 
-const features: IFeature[] = [
+const features: IFeatureTab[] = [
   {
     header: "SKILL UPGRADE",
     items: [

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { IFeature } from "../../models/models";
+import { IFeatureTab } from "../../models/models";
 import FeatureCard from "./FeatureCard";
 
 interface IFeatureTabProps {
   activeFeature: number;
-  features: IFeature[];
+  features: IFeatureTab[];
 }
 function FeatureTab(props: IFeatureTabProps) {
   const [activeTabIndex, setActiveTabIndex] = useState<number>(props.activeFeature);

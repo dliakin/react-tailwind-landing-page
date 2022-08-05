@@ -1,4 +1,4 @@
-export interface IFeature {
+export interface IFeatureTab {
   header: string;
   items: IFeatureItem[];
 }
