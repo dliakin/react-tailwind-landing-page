@@ -20,7 +20,9 @@ function FeatureTab(props: IFeatureTabProps) {
         {props.features.map((feature, index) => (
           <button
             onClick={handleClick}
-            className={`flex items-center flex-shrink-0 px-5 py-2 ${index === activeTabIndex ? "text-white" : "text-gray-400"} `}
+            className={`font-semibold text-xl lg:text-2xl flex items-center flex-shrink-0 px-5 py-2 ${
+              index === activeTabIndex ? "text-white" : "text-gray-400"
+            } `}
             key={`feature-${index}`}
             id={index.toString()}
           >

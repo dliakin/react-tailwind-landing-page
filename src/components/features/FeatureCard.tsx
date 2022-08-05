@@ -9,7 +9,7 @@ function FeatureCard(props: IFeatureItem) {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={props.icon} />
         </svg>
       </div>
-      <p className="text-white text-center mb-2">{props.text}</p>
+      <p className="text-white text-center mb-2 font-medium text-lg lg:text-xl">{props.text}</p>
     </div>
   );
 }
