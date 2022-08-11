@@ -1,5 +1,8 @@
 import React from "react";
 import Features from "./components/features/Features";
+import Hero from "./components/hero/Hero";
+import Stats from "./components/stats/Stats";
+import Heading from "./heading/Heading";
 import { IFeatureTab } from "./models/models";
 
 const features: IFeatureTab[] = [
@@ -42,6 +45,9 @@ const features: IFeatureTab[] = [
 function App() {
   return (
     <>
+      <Hero />
+      <Stats />
+      <Heading />
       <Features features={features} />
     </>
   );
