@@ -3,11 +3,11 @@ import { IFeatureTab } from "../../models/models";
 import FeatureCard from "./FeatureCard";
 
 interface IFeatureTabProps {
-  activeFeature: number;
+  activeTab: number;
   features: IFeatureTab[];
 }
 function FeatureTab(props: IFeatureTabProps) {
-  const [activeTabIndex, setActiveTabIndex] = useState<number>(props.activeFeature);
+  const [activeTabIndex, setActiveTabIndex] = useState<number>(props.activeTab);
 
   function handleClick(e: React.MouseEvent<HTMLButtonElement>) {
     e.preventDefault();
