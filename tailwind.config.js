@@ -19,7 +19,7 @@ module.exports = {
         golos: ["GolosTextWebRegular"],
       },
       backgroundSize: {
-        "55%": "55%",
+        "44%": "44%",
       },
       backgroundPosition: {
         "bottom-10": "10rem bottom",
