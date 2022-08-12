@@ -1,9 +1,12 @@
 import React from "react";
+import CardWithHeader from "./components/cards/CardWithHeader";
 import Features from "./components/features/Features";
 import Hero from "./components/hero/Hero";
 import Stats from "./components/stats/Stats";
 import Heading from "./heading/Heading";
 import { IFeatureTab, IStatItem } from "./models/models";
+import ImgProject from "./images/project.png";
+import ImgQuestion from "./images/question 1.png";
 
 const features: IFeatureTab[] = [
   {
@@ -44,16 +47,28 @@ const features: IFeatureTab[] = [
 
 const statItems: IStatItem[] = [
   {
-    statNumber: 293,
-    text: ["HD видеоурока", <br />, "длительностью 3 - 15 минут"],
+    statValue: "293",
+    text: (() => (
+      <>
+        HD видеоурока <br /> длительностью 3 - 15 минут
+      </>
+    ))(),
   },
   {
-    statNumber: 6,
-    text: ["мероприятий на курсе (Хакатоны,", <br />, "мастер классы, разборы и т.д.)"],
+    statValue: "6",
+    text: (() => (
+      <>
+        мероприятий на курсе (Хакатоны, <br /> мастер классы, разборы и т.д.)
+      </>
+    ))(),
   },
   {
-    statNumber: 193,
-    text: ["заданий и тестов", <br />, "для закрепления"],
+    statValue: "193",
+    text: (() => (
+      <>
+        заданий и тестов <br /> для закрепления
+      </>
+    ))(),
   },
 ];
 
@@ -62,7 +77,89 @@ function App() {
     <>
       <Hero />
       <Stats statItems={statItems} />
-      <Heading />
+      <Heading
+        title="Как именно ты станешь разработчиком"
+        subTitle={(() => (
+          <>
+            На курсе ты не просто изучаешь теоретический материал. в процессе изучения ты повторяете за действующим разработчиком, после чего{" "}
+            <strong>закрепляешь знания на заданиях и проектах.</strong>
+          </>
+        ))()}
+        imgUrl={ImgQuestion}
+      >
+        <>
+          <div className="flex flex-col relative mt-16">
+            <div className="1450px:hidden flex flex-col items-center">
+              <CardWithHeader header="2 Командных проекта">
+                <>
+                  <p className="mt-3 text-sm color-[#0F1214] leading-[170%]">
+                    Симуляция комерческого проекта - получаете ТЗ и организовываете командную разработку. Прокачивая навыки для будущей работы.
+                  </p>
+                  <p className="mt-3 text-sm color-[#0F1214] leading-[170%]">
+                    <strong>Проекты на тему:</strong>
+                    <br />- JavaScript плагин "Контекстное меню"
+                    <br />- Cайт на React, презентующий команду участников
+                  </p>
+                </>
+              </CardWithHeader>
+              <br />
+              <CardWithHeader header="Индивидуальные проекты">
+                <p className="mt-3 text-sm color-[#0F1214] leading-[170%]">
+                  Чтобы свободно чуствовать себя на позиции junior необходим опыт разработки.
+                  <br />
+                  Вы создадите 3 проекта изучая материал от простого к сложному:
+                  <br />
+                  <br />
+                  1. Проект корзина с товарами для интернет-магазина
+                  <br />
+                  2. Социальная сеть для поиска и знакомств
+                  <br />
+                  3.Дипломный проект на выбранную вами тему: <br />- Учет доходов и рассходов <br />- Бронирование отелей <br />- Интернет-магазин или схожий по
+                  сложности проект, которым вы выберети и утвердите с куратором
+                </p>
+              </CardWithHeader>
+              <br />
+            </div>
+            <img src={ImgProject} alt="" />
+
+            <div className="absolute left-[-300px] top-28 z-20 1450px:block hidden ">
+              <CardWithHeader header="2 Командных проекта" maxWidth={"max-w-[325px]"}>
+                <>
+                  <p className="mt-3 text-sm color-[#0F1214] leading-[170%]">
+                    Симуляция комерческого проекта - получаете ТЗ и организовываете командную разработку. Прокачивая навыки для будущей работы.
+                  </p>
+                  <p className="mt-3 text-sm color-[#0F1214] leading-[170%]">
+                    <strong>Проекты на тему:</strong>
+                    <br />- JavaScript плагин "Контекстное меню"
+                    <br />- Cайт на React, презентующий команду участников
+                  </p>
+                </>
+              </CardWithHeader>
+            </div>
+
+            <div className="absolute left-[710px] top-[215px] z-30 1450px:block hidden">
+              <CardWithHeader header="Индивидуальные проекты" maxWidth={"max-w-[390px]"}>
+                <p className="mt-3 text-sm color-[#0F1214] leading-[170%]">
+                  Чтобы свободно чуствовать себя на позиции junior необходим опыт разработки.
+                  <br />
+                  Вы создадите 3 проекта изучая материал от простого к сложному:
+                  <br />
+                  <br />
+                  1. Проект корзина с товарами для интернет-магазина
+                  <br />
+                  2. Социальная сеть для поиска и знакомств
+                  <br />
+                  3.Дипломный проект на выбранную вами тему: <br />- Учет доходов и рассходов <br />- Бронирование отелей <br />- Интернет-магазин или схожий по
+                  сложности проект, которым вы выберети и утвердите с куратором
+                </p>
+              </CardWithHeader>
+            </div>
+          </div>
+          <a href="/" className="mt-10 text-[#0F1214] font-normal text-sm">
+            Проекты учеников
+          </a>
+        </>
+      </Heading>
       <Features features={features} />
     </>
   );
