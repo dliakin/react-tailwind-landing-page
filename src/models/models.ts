@@ -9,6 +9,11 @@ export interface IFeatureItem {
 }
 
 export interface IStatItem {
-  statNumber: number;
-  text: Array<string | JSX.Element>;
+  statValue: string;
+  text: string | JSX.Element;
+}
+
+export interface IHeading {
+  title: string;
+  subTitle: string | JSX.Element;
 }
