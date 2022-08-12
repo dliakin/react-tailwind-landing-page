@@ -3,7 +3,7 @@ import CardWithHeader from "./components/cards/CardWithHeader";
 import Features from "./components/features/Features";
 import Hero from "./components/hero/Hero";
 import Stats from "./components/stats/Stats";
-import Heading from "./heading/Heading";
+import Heading from "./components/heading/Heading";
 import { IFeatureTab, IStatItem } from "./models/models";
 import ImgProject from "./images/project.png";
 import ImgQuestion from "./images/question 1.png";
