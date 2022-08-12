@@ -3,7 +3,7 @@ import Features from "./components/features/Features";
 import Hero from "./components/hero/Hero";
 import Stats from "./components/stats/Stats";
 import Heading from "./heading/Heading";
-import { IFeatureTab } from "./models/models";
+import { IFeatureTab, IStatItem } from "./models/models";
 
 const features: IFeatureTab[] = [
   {
@@ -42,11 +42,26 @@ const features: IFeatureTab[] = [
   },
 ];
 
+const statItems: IStatItem[] = [
+  {
+    statNumber: 293,
+    text: ["HD видеоурока", <br />, "длительностью 3 - 15 минут"],
+  },
+  {
+    statNumber: 6,
+    text: ["мероприятий на курсе (Хакатоны,", <br />, "мастер классы, разборы и т.д.)"],
+  },
+  {
+    statNumber: 193,
+    text: ["заданий и тестов", <br />, "для закрепления"],
+  },
+];
+
 function App() {
   return (
     <>
       <Hero />
-      <Stats />
+      <Stats statItems={statItems} />
       <Heading />
       <Features features={features} />
     </>
