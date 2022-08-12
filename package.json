@@ -1,8 +1,8 @@
 {
-  "name": "feautures-component",
-  "version": "0.1.0",
+  "name": "react-tailwind-landing-page",
+  "version": "0.2.0",
   "private": true,
-  "homepage": "https://dlyakin.github.io/feautures-component",
+  "homepage": "https://dlyakin.github.io/react-tailwind-landing-page",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
