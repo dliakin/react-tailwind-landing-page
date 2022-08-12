@@ -120,7 +120,7 @@ function App() {
               </CardWithHeader>
               <br />
             </div>
-            <img src={ImgProject} alt="" />
+            <img src={ImgProject} alt="Application screenshot" />
 
             <div className="absolute left-[-300px] top-28 z-20 1450px:block hidden ">
               <CardWithHeader header="2 Командных проекта" maxWidth={"max-w-[325px]"}>

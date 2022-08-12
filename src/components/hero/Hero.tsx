@@ -31,7 +31,7 @@ function Hero() {
         <div className="w-full lg:w-1/2 flex justify-end items-end">
           <div className="relative hidden md:block">
             <div className="absolute z-10 2xl:top-[-630px] xl:top-[-528px] lg:top-[-350px] lg:left-[5px] top-[-630px] left-[-45px] ">
-              <img src={ImgDots} loading="lazy" alt="" className="max-w-fit" />
+              <img src={ImgDots} loading="lazy" alt="Decorative element dots" className="max-w-fit" />
             </div>
 
             <div className="absolute z-30 top-[-100px] lg:left-[-10px] left-[250px]">
@@ -49,11 +49,11 @@ function Hero() {
               </Card>
             </div>
             <div className="absolute z-40 top-[-150px] lg:left-[11px] left-[350px] bg-[#7F76FF] p-5 rounded-3xl shadow-card w-fit h-fit">
-              <img src={ImgVector} alt="" className="max-w-fit" />
+              <img src={ImgVector} alt="Decorative element symbols" className="max-w-fit" />
             </div>
           </div>
           <div className="z-20 mt-[95px] lg:ml-[50px] overflow-hidden">
-            <img src={ImgApp} loading="lazy" alt="" className="w-full h-full object-cover object-center" />
+            <img src={ImgApp} loading="lazy" alt="Application screenshot" className="w-full h-full object-cover object-center" />
           </div>
         </div>
       </div>
