@@ -1,6 +1,9 @@
 import React from "react";
 import ImgApp from "./javascript anim.png";
 import ImgDots from "./background dots.png";
+import ImgVector from "./Vector.png";
+
+import Card from "../cards/Card";
 
 function Hero() {
   return (
@@ -28,6 +31,23 @@ function Hero() {
         <div className="w-1/2 flex justify-end ">
           <div className="relative z-9 top-12 left-20">
             <img src={ImgDots} loading="lazy" alt="" />
+            <div className="absolute left-[-70px] top-[510px] z-20">
+              <Card maxWidth={"max-w-[396px]"}>
+                <p>
+                  <span className="text-[#ED7138]">Обучение </span>
+                  <span className="text-[#0F1214]">для тех, </span>
+                  <span className="text-[#979EA2]">кто готов учиться 10 часов в неделю, </span>
+                  <span className="text-[#ED7138]">чтобы получить результат. </span>
+                  <span className="text-[#0F1214]">Мы даем </span>
+                  <span className="text-[#979EA2]">необходимые навыки </span>
+                  <span className="text-[#0F1214]">на продвинутом уровне, </span>
+                  <span className="text-[#979EA2]">убирая все лишнее</span>
+                </p>
+              </Card>
+            </div>
+            <div className="absolute top-[460px] z-30 bg-[#7F76FF] p-5 rounded-3xl shadow-card">
+              <img src={ImgVector} alt="" />
+            </div>
           </div>
           <div className="mt-[95px] z-10">
             <img src={ImgApp} loading="lazy" alt="" />
