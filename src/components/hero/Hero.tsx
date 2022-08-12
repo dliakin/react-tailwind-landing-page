@@ -1,25 +1,25 @@
 import React from "react";
-import ImgApp from "./javascript anim.png";
-import ImgDots from "./background dots.png";
-import ImgVector from "./Vector.png";
+import ImgApp from "./app.png";
+import ImgDots from "./dots.png";
+import ImgVector from "./vector.png";
 
 import Card from "../cards/Card";
 
 function Hero() {
   return (
-    <div className="bg-[#7B72FE] bg-[url('./components/hero/circle.png')] bg-no-repeat bg-bottom-10 bg-55% rounded-l-[40px] mt-[100px] ml-[160px]">
-      <div className="flex flex-wrap">
-        <div className="w-1/2 flex flex-col justify-top pt-[65px] pl-[95px]">
-          <h1 className="text-white text-[54px] font-semibold leading-[130%] tracking-[0.01em]">
+    <div className="bg-[#7B72FE] bg-[url('./components/hero/circle.png')] bg-no-repeat bg-bottom-10 bg-55% rounded-l-[40px]  lg:mt-[100px] lg:ml-[160px] max-w-screen-3xl md:mx-auto ">
+      <div className="flex flex-wrap ">
+        <div className="lg:w-1/2 flex flex-col justify-top lg:pt-[65px] lg:pl-[95px]  p-[20px]">
+          <h1 className="text-white 2xl:text-[54px] font-semibold 2xl:leading-[130%] 2xl:tracking-[0.01em] text-4xl">
             Профессия
             <br />
             Frontend — разработчик
           </h1>
 
-          <p className="text-white text-[30px] font-semibold leading-[140%] tracking-[0.005em] mt-[40px] max-w-[720px]">
+          <p className="text-white 2xl:text-[30px] font-semibold 2xl:leading-[140%] 2xl:tracking-[0.005em] mt-[40px] max-w-[740px] text-xl">
             Стань с нуля продвинутым Junior разработчиком за 7 месяцев с знанием технологий больше, чем у других кандидатов
           </p>
-          <p className="text-white text-[18px] font-normal leading-[150%] tracking-[0.005em] mt-[26px] max-w-[700px]">
+          <p className="text-white 2xl:text-[18px] font-normal 2xl:leading-[150%] 2xl:tracking-[0.005em] mt-[26px] max-w-[700px] text-sm">
             Начиная с основ изучишь JavaScript, разберешься с самыми популярными технологиями, научишься писать Frontend на фреймворке и связывать его с
             Backend. <strong>Навыки после курса оцениваются от 100 т.р.</strong>
           </p>
@@ -28,10 +28,13 @@ function Hero() {
           </button>
         </div>
 
-        <div className="w-1/2 flex justify-end ">
-          <div className="relative z-9 top-12 left-20">
-            <img src={ImgDots} loading="lazy" alt="" />
-            <div className="absolute left-[-70px] top-[510px] z-20">
+        <div className="w-full lg:w-1/2 flex justify-end items-end">
+          <div className="relative hidden md:block">
+            <div className="absolute z-10 2xl:top-[-630px] xl:top-[-528px] lg:top-[-350px] lg:left-[5px] top-[-630px] left-[-45px] ">
+              <img src={ImgDots} loading="lazy" alt="" className="max-w-fit" />
+            </div>
+
+            <div className="absolute z-30 top-[-100px] lg:left-[-10px] left-[250px]">
               <Card maxWidth={"max-w-[396px]"}>
                 <p>
                   <span className="text-[#ED7138]">Обучение </span>
@@ -45,12 +48,12 @@ function Hero() {
                 </p>
               </Card>
             </div>
-            <div className="absolute top-[460px] z-30 bg-[#7F76FF] p-5 rounded-3xl shadow-card">
-              <img src={ImgVector} alt="" />
+            <div className="absolute z-40 top-[-150px] lg:left-[11px] left-[350px] bg-[#7F76FF] p-5 rounded-3xl shadow-card w-fit h-fit">
+              <img src={ImgVector} alt="" className="max-w-fit" />
             </div>
           </div>
-          <div className="mt-[95px] z-10">
-            <img src={ImgApp} loading="lazy" alt="" />
+          <div className="z-20 mt-[95px] lg:ml-[50px] overflow-hidden">
+            <img src={ImgApp} loading="lazy" alt="" className="w-full h-full object-cover object-center" />
           </div>
         </div>
       </div>
