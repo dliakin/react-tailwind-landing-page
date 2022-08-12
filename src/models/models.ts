@@ -7,3 +7,8 @@ export interface IFeatureItem {
   icon: string;
   text: string;
 }
+
+export interface IStatItem {
+  statNumber: number;
+  text: Array<string | JSX.Element>;
+}
