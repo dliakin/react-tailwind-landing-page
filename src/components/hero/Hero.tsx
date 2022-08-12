@@ -7,7 +7,7 @@ import Card from "../cards/Card";
 
 function Hero() {
   return (
-    <div className="bg-[#7B72FE] bg-[url('./components/hero/circle.png')] bg-no-repeat bg-bottom-10 bg-55% rounded-l-[40px]  lg:mt-[100px] lg:ml-[160px] md:mx-auto ">
+    <div className="bg-[#7B72FE] bg-[url('./components/hero/circle.png')] bg-no-repeat bg-bottom-10 bg-44% rounded-l-[40px]  lg:mt-[100px] lg:ml-[160px] md:mx-auto ">
       <div className="flex flex-wrap ">
         <div className="lg:w-1/2 flex flex-col justify-top lg:pt-[65px] lg:pl-[95px]  p-[20px]">
           <h1 className="text-white 2xl:text-[54px] font-semibold 2xl:leading-[130%] 2xl:tracking-[0.01em] text-4xl">
