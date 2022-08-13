@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-tailwind-landing-page/static/css/main.f768b8e7.css",
-    "main.js": "/react-tailwind-landing-page/static/js/main.93d9e38f.js",
+    "main.css": "/react-tailwind-landing-page/static/css/main.f85dda33.css",
+    "main.js": "/react-tailwind-landing-page/static/js/main.fee75599.js",
     "static/media/project.png": "/react-tailwind-landing-page/static/media/project.2c4084b2bd8f94668486.png",
     "static/media/app.png": "/react-tailwind-landing-page/static/media/app.6039f23f832e45015719.png",
     "static/media/Golos-Text_Regular.woff": "/react-tailwind-landing-page/static/media/Golos-Text_Regular.b1395e91e001884eee01.woff",
     "static/media/Golos-Text_Regular.woff2": "/react-tailwind-landing-page/static/media/Golos-Text_Regular.ae582e244fd754e381e0.woff2",
     "static/media/circle.png": "/react-tailwind-landing-page/static/media/circle.7a8c63dd7b1fa0d6d59e.png",
     "index.html": "/react-tailwind-landing-page/index.html",
-    "main.f768b8e7.css.map": "/react-tailwind-landing-page/static/css/main.f768b8e7.css.map",
-    "main.93d9e38f.js.map": "/react-tailwind-landing-page/static/js/main.93d9e38f.js.map"
+    "main.f85dda33.css.map": "/react-tailwind-landing-page/static/css/main.f85dda33.css.map",
+    "main.fee75599.js.map": "/react-tailwind-landing-page/static/js/main.fee75599.js.map"
   },
   "entrypoints": [
-    "static/css/main.f768b8e7.css",
-    "static/js/main.93d9e38f.js"
+    "static/css/main.f85dda33.css",
+    "static/js/main.fee75599.js"
   ]
 }
