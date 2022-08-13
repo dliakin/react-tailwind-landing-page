@@ -7,9 +7,9 @@ import Card from "../cards/Card";
 
 function Hero() {
   return (
-    <div className="bg-[#7B72FE] bg-[url('./components/hero/circle.png')] bg-no-repeat bg-bottom-10 bg-44% rounded-l-[40px]  lg:mt-[100px] lg:ml-[160px] md:mx-auto ">
+    <div className="bg-[#7B72FE] bg-[url('./components/hero/circle.png')] bg-no-repeat bg-bottom-10 bg-44% rounded-l-[40px]  lg:mt-[100px] lg:ml-[160px] md:mx-auto mt-3">
       <div className="flex flex-wrap ">
-        <div className="lg:w-1/2 flex flex-col justify-top lg:pt-[65px] lg:pl-[95px]  p-[20px]">
+        <div className="lg:w-1/2 flex flex-col justify-top lg:pt-[65px] lg:pl-[95px] lg:pr-0 pt-10 pl-10 pr-10">
           <h1 className="text-white 2xl:text-[54px] font-semibold 2xl:leading-[130%] 2xl:tracking-[0.01em] text-4xl">
             Профессия
             <br />
@@ -23,12 +23,12 @@ function Hero() {
             Начиная с основ изучишь JavaScript, разберешься с самыми популярными технологиями, научишься писать Frontend на фреймворке и связывать его с
             Backend. <strong>Навыки после курса оцениваются от 100 т.р.</strong>
           </p>
-          <button className="mt-[60px] bg-[#ED7138] rounded-[50px] px-[40px] py-[28px] text-white text-[18px] font-normal leading-[100%] max-w-[325px]">
+          <button className="md:mt-[60px] mt-[40px] bg-[#ED7138] rounded-[50px] px-[40px] py-[28px] text-white text-[18px] font-normal leading-[100%] max-w-[325px]">
             Задать вопрос об обучении
           </button>
         </div>
 
-        <div className="w-full lg:w-1/2 flex justify-end items-end">
+        <div className="md:w-full lg:w-1/2 flex justify-end items-end">
           <div className="relative hidden md:block">
             <div className="absolute z-10 2xl:top-[-630px] xl:top-[-528px] lg:top-[-350px] lg:left-[5px] top-[-630px] left-[-45px] ">
               <img src={ImgDots} loading="lazy" alt="Decorative element dots" className="max-w-fit" />
@@ -52,9 +52,26 @@ function Hero() {
               <img src={ImgVector} alt="Decorative element symbols" className="max-w-fit" />
             </div>
           </div>
-          <div className="z-20 mt-[95px] lg:ml-[50px] overflow-hidden">
+          <div className="z-20 md:mt-[95px] mt-[40px] lg:ml-[50px] overflow-hidden">
             <img src={ImgApp} loading="lazy" alt="Application screenshot" className="w-full h-full object-cover object-center" />
           </div>
+        </div>
+        <div className="hidden sm:block md:hidden mt-3 relative top-[-130px] left-10 z-30">
+          <div className="bg-[#7F76FF] p-5 rounded-3xl shadow-card w-fit h-fit relative top-[39px] left-10">
+            <img src={ImgVector} alt="Decorative element symbols" className="max-w-fit" />
+          </div>
+          <Card maxWidth={"max-w-[396px]"}>
+            <p>
+              <span className="text-[#ED7138]">Обучение </span>
+              <span className="">для тех, </span>
+              <span className="text-[#979EA2]">кто готов учиться 10 часов в неделю, </span>
+              <span className="text-[#ED7138]">чтобы получить результат. </span>
+              <span className="">Мы даем </span>
+              <span className="text-[#979EA2]">необходимые навыки </span>
+              <span className="">на продвинутом уровне, </span>
+              <span className="text-[#979EA2]">убирая все лишнее</span>
+            </p>
+          </Card>
         </div>
       </div>
     </div>
