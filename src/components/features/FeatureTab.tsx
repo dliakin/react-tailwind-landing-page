@@ -16,7 +16,7 @@ function FeatureTab(props: IFeatureTabProps) {
 
   return (
     <>
-      <div className="flex items-center -mx-4 mb-10 md:mb-16 space-x-2 overflow-x-auto overflow-y-hidden sm:justify-center flex-nowrap">
+      <div className="flex items-center -mx-4 mb-10 md:mb-16 space-x-2 overflow-x-auto overflow-y-hidden justify-center flex-wrap">
         {props.features.map((feature, index) => (
           <button
             onClick={handleClick}

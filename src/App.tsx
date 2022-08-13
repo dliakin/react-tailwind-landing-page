@@ -160,7 +160,7 @@ function App() {
           </a>
         </>
       </Heading>
-      <Features features={features} />
+      <Features features={features} title="Что тебе даст прохождение курса?" />
     </>
   );
 }
