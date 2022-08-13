@@ -8,3 +8,9 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@layer base {
+  html {
+    @apply text-[#0f1214];
+  }
+}

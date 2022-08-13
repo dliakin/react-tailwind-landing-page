@@ -38,12 +38,12 @@ function Hero() {
               <Card maxWidth={"max-w-[396px]"}>
                 <p>
                   <span className="text-[#ED7138]">Обучение </span>
-                  <span className="text-[#0F1214]">для тех, </span>
+                  <span className="">для тех, </span>
                   <span className="text-[#979EA2]">кто готов учиться 10 часов в неделю, </span>
                   <span className="text-[#ED7138]">чтобы получить результат. </span>
-                  <span className="text-[#0F1214]">Мы даем </span>
+                  <span className="">Мы даем </span>
                   <span className="text-[#979EA2]">необходимые навыки </span>
-                  <span className="text-[#0F1214]">на продвинутом уровне, </span>
+                  <span className="">на продвинутом уровне, </span>
                   <span className="text-[#979EA2]">убирая все лишнее</span>
                 </p>
               </Card>

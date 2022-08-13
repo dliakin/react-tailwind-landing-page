@@ -92,10 +92,10 @@ function App() {
             <div className="1450px:hidden flex flex-col items-center">
               <CardWithHeader header="2 Командных проекта">
                 <>
-                  <p className="mt-3 text-sm color-[#0F1214] leading-[170%]">
+                  <p className="mt-3 text-sm leading-[170%]">
                     Симуляция комерческого проекта - получаете ТЗ и организовываете командную разработку. Прокачивая навыки для будущей работы.
                   </p>
-                  <p className="mt-3 text-sm color-[#0F1214] leading-[170%]">
+                  <p className="mt-3 text-sm leading-[170%]">
                     <strong>Проекты на тему:</strong>
                     <br />- JavaScript плагин "Контекстное меню"
                     <br />- Cайт на React, презентующий команду участников
@@ -104,7 +104,7 @@ function App() {
               </CardWithHeader>
               <br />
               <CardWithHeader header="Индивидуальные проекты">
-                <p className="mt-3 text-sm color-[#0F1214] leading-[170%]">
+                <p className="mt-3 text-sm leading-[170%]">
                   Чтобы свободно чуствовать себя на позиции junior необходим опыт разработки.
                   <br />
                   Вы создадите 3 проекта изучая материал от простого к сложному:
@@ -125,10 +125,10 @@ function App() {
             <div className="absolute left-[-300px] top-28 z-20 1450px:block hidden ">
               <CardWithHeader header="2 Командных проекта" maxWidth={"max-w-[325px]"}>
                 <>
-                  <p className="mt-3 text-sm color-[#0F1214] leading-[170%]">
+                  <p className="mt-3 text-sm leading-[170%]">
                     Симуляция комерческого проекта - получаете ТЗ и организовываете командную разработку. Прокачивая навыки для будущей работы.
                   </p>
-                  <p className="mt-3 text-sm color-[#0F1214] leading-[170%]">
+                  <p className="mt-3 text-sm leading-[170%]">
                     <strong>Проекты на тему:</strong>
                     <br />- JavaScript плагин "Контекстное меню"
                     <br />- Cайт на React, презентующий команду участников
@@ -139,7 +139,7 @@ function App() {
 
             <div className="absolute left-[710px] top-[215px] z-30 1450px:block hidden">
               <CardWithHeader header="Индивидуальные проекты" maxWidth={"max-w-[390px]"}>
-                <p className="mt-3 text-sm color-[#0F1214] leading-[170%]">
+                <p className="mt-3 text-sm leading-[170%]">
                   Чтобы свободно чуствовать себя на позиции junior необходим опыт разработки.
                   <br />
                   Вы создадите 3 проекта изучая материал от простого к сложному:
@@ -155,7 +155,7 @@ function App() {
               </CardWithHeader>
             </div>
           </div>
-          <a href="/" className="mt-10 text-[#0F1214] font-normal text-sm">
+          <a href="/" className="mt-10 font-normal text-sm">
             Проекты учеников
           </a>
         </>
